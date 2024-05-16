@@ -1,0 +1,48 @@
+@importar url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+*{
+    margem: 0;
+    preenchimento: 0;
+    família de fontes: 'Aberto Sans',sem serifa;
+}
+
+corpo{
+    altura: 100vh;
+    fundo: Gradiente linear(120graus, #ffe53bd8, #ff2525da);
+    mostrar:flexionar;
+    alinhar itens:Centro;
+    justificar-conteúdo:Centro;
+}
+
+.relógio{
+    mostrar:flexionar;
+    alinhar itens:Centro;
+    justificar-conteúdo:espaço ao redor;
+    altura: 200pixels;
+    largura: 550pixels;
+    fundo:transparente;
+    raio da fronteira: 3pixels;
+    Sombra da caixa: 0pixels 8pixels 10pixels RGB(0, 0, 0, .5);
+}
+
+.relógio divisão{
+    altura: 170pixels;
+    largura: 150pixels;
+    mostrar:flexionar;
+    direção flexível:coluna;
+    alinhar itens:Centro;
+    justificar-conteúdo:Centro;
+    cor: #aff;
+    fundo: RGB(5, 5, 5, .9);
+    Sombra da caixa: 5pixels 5pixels 15pixels RGB(0, 0, 0, .7);
+    raio da fronteira: 7pixels;
+    espaçamento entre letras: 3pixels;
+}
+
+.relógio período{
+    espessura da fonte:mais ousado;
+    tamanho da fonte: 60pixels;
+}
+
+.relógio período.tempo{
+    tamanho da fonte: 10pixels;
+}
